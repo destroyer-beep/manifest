@@ -1,0 +1,151 @@
+.menu {
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    right: 0;
+    background-color: #FEFBF6;
+    transition: top 1s;
+
+    &__logo {
+        position: relative;
+    }
+
+    &__logo_img {
+        width: 134px;
+        margin: 10px auto 0;
+
+        @media screen and (min-width: 768px) {
+            width: 150px;
+            margin-top: 24px;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        top:27px;
+        right: 19px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #bbbbbb;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 24px;
+            height: 24px;
+            top:30px;
+            right: 24px;
+        }
+
+        img {
+            @media screen and (min-width: 768px) {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 592px;
+            margin: 36px auto 152px;
+        }
+    }
+
+    &__nav {
+        margin-top: 22px;
+    }
+    
+    &__item {
+        text-align: center;
+        margin-top: 20px;
+
+        @media screen and (min-width: 768px) {
+            text-align: left;
+            margin-top: 25px;
+        }
+    }
+
+    &__link {
+        color: #282828;
+        font-family: "QuincyCF-Bold";
+        font-size: 18px;
+        line-height: 1.3;
+
+        @media screen and (min-width: 768px) {
+            font-size: 22px;
+        }
+    }
+
+    &__line {
+        width: 64px;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-bottom: solid 1px #E46A4F;
+
+        @media screen and (min-width: 768px) {
+            margin-left: 0;
+            margin-top: 26px;
+        }
+    }
+
+    &__button {
+        margin-top: 28px;
+        margin-left: 57px;
+        font-size: 14px;
+        font-family: "QuincyCF-Bold";
+        color: #282828;
+        background-color: #FEFBF6;
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-left: 0;
+        }
+    }
+
+    &__info {
+        margin-top: 10px;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 45px;
+        }
+    }
+
+    &__info_item {
+        @media screen and (min-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+
+    &__link_info {
+        font-family: "Raleway-Regular";
+        font-size: 14px;
+        line-height: 130%;
+        color: #282828;
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+        }
+    }
+
+    &__socials {
+        margin: 45px auto 0;
+        padding-bottom: 50px;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 40px;
+        }
+    }
+
+    &__open {
+        top: 0;
+        transition: top 1s;
+    }
+}

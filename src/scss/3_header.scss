@@ -1,0 +1,70 @@
+.header {
+    position: relative;
+
+    &__block {
+        height: 93px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px 40px 20px;
+
+        @media screen and (min-width: 768px) {
+            padding: 24px 24px 24px 24px;
+        }
+    }
+
+    &__menu {
+        height: 16px;
+        width: 24px;
+        margin-top: 37px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #bbbbbb;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 43px;
+            height: 24px;
+        }
+
+        img {
+            @media screen and (min-width: 768px) {
+                width: 43px;
+                height: 24px;
+            }
+        }
+    }
+
+    &__logo {
+
+            img {
+            @media screen and (min-width: 768px) {
+                width: 150px;
+            }
+        }
+    }
+
+    &__search {
+        width: 16px;
+        height: 16px;
+        margin-top: 37px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #bbbbbb;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 24px;
+            height: 24px;
+        }
+
+        img {
+            @media screen and (min-width: 768px) {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
