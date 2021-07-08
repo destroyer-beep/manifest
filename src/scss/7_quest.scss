@@ -1,0 +1,93 @@
+.quest {
+    margin-top: 60px;
+
+    &__header {
+
+        h2 {
+            margin-left: 20px;
+            font-family: "QuincyCF-Bold";
+            font-size: 20px;
+            line-height: 1.3;
+        }
+    }
+
+    &__line {
+        height: 1px;
+        width: 80px;
+        margin-top: 8px;
+        background-color: #E46A4F;
+    }
+
+    &__block {
+        height: 550px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+
+    &__item {
+        padding: 40px 20px;
+
+        &:nth-child(2n) {
+            background-color: #FEFBF6;
+        }
+    }
+
+    &__head {
+        font-family: "QuincyCF-Bold";
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    &__user {
+        margin-top: 40px;
+        display: flex;
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+        }
+    }
+
+    &__user_info {
+        margin-left: 20px;
+
+        p {
+            margin-bottom: 5px;
+            font-family: "QuincyCF-Bold";
+            font-size: 14px;
+            line-height: 1.3;
+        }
+
+        a {
+            font-family: "Raleway-Regular";
+            font-size: 12px;
+            line-height: 130%;
+            color: #4A7987;
+        }
+    }
+
+    &__text {
+
+        p {
+            margin-top: 13px;
+            font-family: "Raleway-Regular";
+            font-size: 14px;
+            line-height: 130%;
+        }
+    }
+
+    &__button {
+        display: block;
+        margin: 15px auto 0;
+        font-family: "QuincyCF-Bold";
+        font-size: 14px;
+        line-height: 1.3;
+        background-color: #FFFFFF;
+    }
+
+    &__show {
+        height: 1100px;
+        transition: all 1s;
+    }
+}

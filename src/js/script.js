@@ -112,3 +112,18 @@ columnBtnLoadAll.addEventListener('click', () => {
         }
 });
 
+// Выпадающий список вопросов
+
+const questBtnLoadAll = document.querySelector('.quest__button');
+const questBlock = document.querySelector('.quest__block');
+
+questBtnLoadAll.addEventListener('click', () => {
+        if (questBlock.classList.contains('quest__show')) {
+                questBlock.classList.remove('quest__show');
+                questBtnLoadAll.textContent = `ДРУГИЕ ВОПРОСЫ`;
+        } else if (!questBlock.classList.contains('quest__show')) {
+                questBlock.classList.add('quest__show');
+                questBtnLoadAll.textContent = `СКРЫТЬ`;
+        }
+});
+
