@@ -4,11 +4,6 @@
     top: 43px;
     display: none;
 
-    // @media screen and (min-width: 768px) {
-    //     right: 22px;
-    //     top: 55px;
-    // }
-
     &__input {
         padding-left: 20px;
         border: 1px solid rgb(204, 204, 204);
@@ -17,10 +12,6 @@
         &:focus {
             outline: none;
         }
-
-        // @media screen and (min-width: 768px) {
-        //         height: 34px;
-        //     }
     }
 
     &__close {
@@ -28,10 +19,6 @@
         margin-top: -17px;
         margin-left: 198px;
         cursor: pointer;
-
-        // @media screen and (min-width: 768px) {
-        //     margin-top: -23px;
-        // }
     }
 
     &__open {

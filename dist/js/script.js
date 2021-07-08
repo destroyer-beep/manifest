@@ -79,3 +79,20 @@ prev.addEventListener('click', () => {
 next.addEventListener('click', () => {
         plusSlides(1);
 });
+
+
+
+// Выпадающий список статей
+
+const btnLoadAll = document.querySelector('.articles__button');
+const articlesBlock = document.querySelector('.articles__block');
+
+btnLoadAll.addEventListener('click', () => {
+        if (articlesBlock.classList.contains('articles__show')) {
+                articlesBlock.classList.remove('articles__show');
+                btnLoadAll.textContent = `ЗАГРУЗИТЬ ЕЩЕ`;
+        } else if (!articlesBlock.classList.contains('articles__show')) {
+                articlesBlock.classList.add('articles__show');
+                btnLoadAll.textContent = `СКРЫТЬ`;
+        }
+});
