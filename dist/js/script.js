@@ -84,15 +84,31 @@ next.addEventListener('click', () => {
 
 // Выпадающий список статей
 
-const btnLoadAll = document.querySelector('.articles__button');
+const articleBtnLoadAll = document.querySelector('.articles__button');
 const articlesBlock = document.querySelector('.articles__block');
 
-btnLoadAll.addEventListener('click', () => {
+articleBtnLoadAll.addEventListener('click', () => {
         if (articlesBlock.classList.contains('articles__show')) {
                 articlesBlock.classList.remove('articles__show');
-                btnLoadAll.textContent = `ЗАГРУЗИТЬ ЕЩЕ`;
+                articleBtnLoadAll.textContent = `ЗАГРУЗИТЬ ЕЩЕ`;
         } else if (!articlesBlock.classList.contains('articles__show')) {
                 articlesBlock.classList.add('articles__show');
-                btnLoadAll.textContent = `СКРЫТЬ`;
+                articleBtnLoadAll.textContent = `СКРЫТЬ`;
         }
 });
+
+// Выпадающий список колонки экспертов
+
+const columnBtnLoadAll = document.querySelector('.column__button');
+const columnBlock = document.querySelector('.column__block');
+
+columnBtnLoadAll.addEventListener('click', () => {
+        if (columnBlock.classList.contains('column__show')) {
+                columnBlock.classList.remove('column__show');
+                columnBtnLoadAll.textContent = `ЗАГРУЗИТЬ ЕЩЕ`;
+        } else if (!columnBlock.classList.contains('column__show')) {
+                columnBlock.classList.add('column__show');
+                columnBtnLoadAll.textContent = `СКРЫТЬ`;
+        }
+});
+

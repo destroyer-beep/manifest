@@ -118,7 +118,7 @@ body {
 }
 
 .menu {
-  width: 100%;
+  width: 320px;
   position: absolute;
   top: -1000px;
   left: 0;
@@ -530,12 +530,115 @@ body {
 
 .articles__button {
   display: block;
-  margin: 0 auto;
+  margin: 15px auto 0;
+  font-family: "QuincyCF-Bold";
+  font-size: 14px;
+  line-height: 1.3;
   background-color: #FFFFFF;
 }
 
 .articles__show {
   height: 2700px;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.column {
+  margin-top: 60px;
+}
+
+.column__header h2 {
+  margin-left: 20px;
+  font-family: "QuincyCF-Bold";
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.column__line {
+  height: 1px;
+  width: 80px;
+  margin-top: 8px;
+  background-color: #E46A4F;
+}
+
+.column__previev {
+  margin: 5px 0 0 20px;
+  padding: 46px 10px 35px 0;
+  background-image: url("../img/bg_previev.svg");
+  background-repeat: no-repeat;
+  background-position-x: -11px;
+}
+
+.column__previev p {
+  font-family: "Raleway-Regular";
+  font-size: 14px;
+  line-height: 130%;
+}
+
+.column__block {
+  height: 1100px;
+  overflow: hidden;
+  padding-left: 20px;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.column__user {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.column__user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.column__user_info {
+  margin-left: 20px;
+}
+
+.column__user_info p {
+  margin-bottom: 5px;
+  font-family: "QuincyCF-Bold";
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.column__user_info a {
+  font-family: "Raleway-Regular";
+  font-size: 12px;
+  line-height: 130%;
+  color: #4A7987;
+}
+
+.column__head {
+  margin-top: 10px;
+  font-family: "QuincyCF-Bold";
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.column__image {
+  margin-top: 20px;
+  width: 279px;
+}
+
+.column__button {
+  display: block;
+  margin: 15px auto 0;
+  font-family: "QuincyCF-Bold";
+  font-size: 14px;
+  line-height: 1.3;
+  background-color: #FFFFFF;
+}
+
+.column__show {
+  height: 2200px;
   -webkit-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
@@ -552,4 +655,5 @@ body {
 .articles__img_4{background-image:url("../img/article_img4.webp")}
 .articles__img_5{background-image:url("../img/article_img5.webp")}
 .articles__img_6{background-image:url("../img/article_img6.webp")}
+.column__previev{background-image:url("../img/bg_previev.svg")}
 }
