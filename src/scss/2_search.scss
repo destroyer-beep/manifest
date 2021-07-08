@@ -4,10 +4,10 @@
     top: 43px;
     display: none;
 
-    @media screen and (min-width: 768px) {
-        right: 22px;
-        top: 55px;
-    }
+    // @media screen and (min-width: 768px) {
+    //     right: 22px;
+    //     top: 55px;
+    // }
 
     &__input {
         padding-left: 20px;
@@ -18,9 +18,9 @@
             outline: none;
         }
 
-        @media screen and (min-width: 768px) {
-                height: 34px;
-            }
+        // @media screen and (min-width: 768px) {
+        //         height: 34px;
+        //     }
     }
 
     &__close {
@@ -29,9 +29,9 @@
         margin-left: 198px;
         cursor: pointer;
 
-        @media screen and (min-width: 768px) {
-            margin-top: -23px;
-        }
+        // @media screen and (min-width: 768px) {
+        //     margin-top: -23px;
+        // }
     }
 
     &__open {

@@ -12,21 +12,21 @@
   <header class="header">
     <div class="header__block">
       <div class="header__menu">
-        <img src="img/menu_open.png" alt="Открыть меню">
+        <img src="img/menu.svg" alt="Открыть меню">
       </div>
       <div class="header__logo">
-        <img src="img/logo.png" alt="Логотип">
+        <img src="img/logo.svg" alt="Логотип">
       </div>
       <div class="header__search">
-        <img src="img/search.png" alt="Поиск по сайту">
+        <img src="img/search.svg" alt="Поиск по сайту">
       </div>
     </div>
 
     <div class="menu">
         <div class="menu__logo">
-          <img class="menu__logo_img" src="img/logo.png" alt="Логотип">
+          <img class="menu__logo_img" src="img/logo.svg" alt="Логотип">
           <div class="menu__close">
-            <img src="img/menu_close.png" alt="Закрыть меню">
+            <img src="img/close.svg" alt="Закрыть меню">
           </div>
         </div>
         <div class="menu__block">
@@ -78,12 +78,62 @@
 
       <div class="search">
         <input class="search__input" type="text" name="search" placeholder="Поиск">
-        <img class="search__close" src="img/menu_close.png" alt="Закрыть поле поиска">
+        <img class="search__close" src="img/close.svg" alt="Закрыть поле поиска">
       </div>
 </header>
 </div>
 
-    <main class="main"></main>
+    <main class="main">
+      <div class="container">
+        <div class="slider">
+          <div class="slider__arrow_right"><img src="img/slider_right.png" alt="Стрелка вправо"></div>
+          <div class="slider__arrow_left"><img src="img/slider_left.png" alt="Стрелка влево"></div>
+          <div class="slider__status">
+            <div class="slider__number">01</div>
+            <div class="slider__line">
+              <div class="slider__progress"></div>
+            </div>
+            <div class="slider__all">03</div>
+          </div> 
+
+          <div class="slider__item">
+            <div class="slider__img slider__img_one">
+              <div class="slider__background"></div>
+            </div>
+            <div class="slider__breadcrumbs">
+              <a href="#">ЛИЧНОСТЬ</a><span>/</span><a href="#">ПЕРСОНА</a>
+            </div>
+            <div class="slider__header">
+              <h2>Быть собой: как бренды повышают нашу самооценку</h2>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__img slider__img_two">
+              <div class="slider__background"></div>
+            </div>
+            <div class="slider__breadcrumbs">
+              <a href="#">ЛИЧНОСТЬ</a><span>/</span><a href="#">ЛИЧНОСТЬ</a>
+            </div>
+            <div class="slider__header">
+              <h2>Sit amet consectetur adipisicing elit. Nisi, iste!</h2>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__img slider__img_three">
+              <div class="slider__background"></div>
+            </div>
+            <div class="slider__breadcrumbs">
+              <a href="#">ПЕРСОНА</a><span>/</span><a href="#">ПЕРСОНА</a>
+            </div>
+            <div class="slider__header">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </main>
     <footer class="footer"></footer>
     <script src="js/script.min.js"></script>
 </body>

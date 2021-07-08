@@ -1,0 +1,11 @@
+<svg width="75" height="45" viewBox="0 0 75 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.117 21L24.644 14.765L24 14L15 21.521L24 29L24.645 28.236L17.116 22L75 22L75 21L17.117 21Z" fill="#4A7987"/>
+</g>
+<circle cx="22.5" cy="22.5" r="22" stroke="#4A7987"/>
+<defs>
+<clipPath id="clip0">
+<rect width="60" height="24" fill="white" transform="translate(15 10)"/>
+</clipPath>
+</defs>
+</svg>

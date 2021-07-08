@@ -8,9 +8,9 @@
         justify-content: space-between;
         padding: 10px 20px 40px 20px;
 
-        @media screen and (min-width: 768px) {
-            padding: 24px 24px 24px 24px;
-        }
+        // @media screen and (min-width: 768px) {
+        //     padding: 24px 24px 24px 24px;
+        // }
     }
 
     &__menu {
@@ -23,27 +23,29 @@
             background-color: #bbbbbb;
         }
 
-        @media screen and (min-width: 768px) {
-            width: 43px;
-            height: 24px;
-        }
+        // @media screen and (min-width: 768px) {
+        //     width: 43px;
+        //     height: 24px;
+        // }
 
-        img {
-            @media screen and (min-width: 768px) {
-                width: 43px;
-                height: 24px;
-            }
-        }
+        // img {
+        //     @media screen and (min-width: 768px) {
+        //         width: 43px;
+        //         height: 24px;
+        //     }
+        // }
     }
 
-    &__logo {
+        &__logo {
 
-            img {
-            @media screen and (min-width: 768px) {
-                width: 150px;
-            }
+            width: 135px;
+
+        //     img {
+        //     @media screen and (min-width: 768px) {
+        //         width: 150px;
+        //     }
+        // }
         }
-    }
 
     &__search {
         width: 16px;
@@ -55,16 +57,16 @@
             background-color: #bbbbbb;
         }
 
-        @media screen and (min-width: 768px) {
-            width: 24px;
-            height: 24px;
-        }
+        // @media screen and (min-width: 768px) {
+        //     width: 24px;
+        //     height: 24px;
+        // }
 
-        img {
-            @media screen and (min-width: 768px) {
-                width: 24px;
-                height: 24px;
-            }
-        }
+        // img {
+        //     @media screen and (min-width: 768px) {
+        //         width: 24px;
+        //         height: 24px;
+        //     }
+        // }
     }
 }

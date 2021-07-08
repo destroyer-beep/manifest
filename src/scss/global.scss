@@ -7,9 +7,9 @@ body {
   max-width: 320px;
   margin: 0 auto;
 
-  @media screen and (min-width: 768px) {
-	  max-width: 768px;
-  }
+//   @media screen and (min-width: 768px) {
+// 	  max-width: 768px;
+//   }
 }
 
 .btn {
@@ -17,15 +17,15 @@ body {
 	width: 208px;
 	padding: 0;
     border: none;
-    background-image: url("../img/border_button.png");
+    background-image: url("../img/border_button.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	cursor: pointer;
 
-	@media screen and (min-width: 768px) {
-		width: 241px;
-		height: 101px;
-	}
+	// @media screen and (min-width: 768px) {
+	// 	width: 241px;
+	// 	height: 101px;
+	// }
 }
 
 .socials {
@@ -33,9 +33,9 @@ body {
 	display: flex;
 	justify-content: space-between;
 
-	@media screen and (min-width: 768px) {
-		margin-left: 0;
-	}
+	// @media screen and (min-width: 768px) {
+	// 	margin-left: 0;
+	// }
 }
 
 
